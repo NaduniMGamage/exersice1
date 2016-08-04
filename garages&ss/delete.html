@@ -1,0 +1,64 @@
+
+
+<html>
+	<head> 
+		<meta charset="utf-8"><>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
+		<title> HomePage</title>
+		 <!-- adding front awesome tools -->
+		<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+	</head>
+	
+<body>
+
+	<!--<h1> <center>  </center> </h1>
+		Name : <?php echo $_POST ['uname'];
+		?> <br/>
+		-->
+		<div class="container">
+			<div class="jumbotron text-center">	
+				<h2><b>Welcome to the Tools Management Section</b></h2>
+			</div>
+		</div>
+		<div class="container">
+			<div class="jumbotron text-left">	
+
+	
+				<h3><b>Delete the item   :- </b></h3>
+				<form action='delete.php' method='POST'>
+				<table>
+					<tr>
+						<td>
+							<h4>Name   :</h4></br>
+						</td>
+						<td>
+							<input type="text" name="delName" style='padding: 4px;'></input>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Id   :</h4></br>
+						</td>
+						<td>
+							<input type="text" name="delId" style='padding: 4px;'></input>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h3><input type="submit" value="Delete" style='padding: 4px;'></input></h3>
+						</td>
+					</tr>
+				</table>
+				</form>
+			</div>
+		</div>
+
+</body>
+</html>

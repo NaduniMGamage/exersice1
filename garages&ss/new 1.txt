@@ -1,0 +1,12 @@
+<?php
+	$conn = mysql_connect("localhost","root","");
+	if($conn){
+		echo 'connect to my sql';
+		
+	}else{
+		
+		echo 'MySql sever is not connected';
+	}
+
+
+?>
